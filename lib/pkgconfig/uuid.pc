@@ -1,0 +1,11 @@
+prefix=/home/ryan/work/project/ast/sdk/toolchains/buildroot-2020.08.1/output/host
+exec_prefix=/home/ryan/work/project/ast/sdk/toolchains/buildroot-2020.08.1/output/host
+libdir=/home/ryan/work/project/ast/sdk/toolchains/buildroot-2020.08.1/output/host/lib
+includedir=/home/ryan/work/project/ast/sdk/toolchains/buildroot-2020.08.1/output/host/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.35.2
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

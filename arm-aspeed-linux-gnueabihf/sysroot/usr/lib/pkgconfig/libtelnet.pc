@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libtelnet
+Description: TELNET protocol handling library
+Version: 0.23
+Libs: -L${libdir} -ltelnet 
+Cflags: -I${includedir}

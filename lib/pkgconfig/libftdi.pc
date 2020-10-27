@@ -1,0 +1,12 @@
+prefix=/home/ryan/work/project/ast/sdk/toolchains/buildroot-2020.08.1/output/host
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libftdi
+Description: Library to program and control the FTDI USB controller
+Requires: libusb
+Version: 0.20
+Libs: -L${libdir} -lftdi
+Cflags: -I${includedir}
+

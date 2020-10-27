@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+ 
+Name: OpenIPMIui
+Description: UI front-end for OpenIPMI
+Version: 2.0.28
+Requires: OpenIPMI ncurses
+Libs: -L${libdir} -lOpenIPMIutils -lOpenIPMIui -lOpenIPMI -lncurses
+Cflags: -I${includedir}

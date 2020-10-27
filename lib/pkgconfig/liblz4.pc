@@ -1,0 +1,14 @@
+#   LZ4 - Fast LZ compression algorithm
+#   Copyright (C) 2011-2014, Yann Collet.
+#   BSD 2-Clause License (http://www.opensource.org/licenses/bsd-license.php)
+
+prefix=/home/ryan/work/project/ast/sdk/toolchains/buildroot-2020.08.1/output/host
+libdir=/home/ryan/work/project/ast/sdk/toolchains/buildroot-2020.08.1/output/host/lib
+includedir=/home/ryan/work/project/ast/sdk/toolchains/buildroot-2020.08.1/output/host/include
+
+Name: lz4
+Description: extremely fast lossless compression algorithm library
+URL: http://www.lz4.org/
+Version: 1.9.2
+Libs: -L/home/ryan/work/project/ast/sdk/toolchains/buildroot-2020.08.1/output/host/lib -llz4
+Cflags: -I/home/ryan/work/project/ast/sdk/toolchains/buildroot-2020.08.1/output/host/include

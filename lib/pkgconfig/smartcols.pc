@@ -1,0 +1,10 @@
+prefix=/home/ryan/work/project/ast/sdk/toolchains/buildroot-2020.08.1/output/host
+exec_prefix=/home/ryan/work/project/ast/sdk/toolchains/buildroot-2020.08.1/output/host
+libdir=/home/ryan/work/project/ast/sdk/toolchains/buildroot-2020.08.1/output/host/lib
+includedir=/home/ryan/work/project/ast/sdk/toolchains/buildroot-2020.08.1/output/host/include
+
+Name: smartcols
+Description: table or tree library
+Version: 2.35.2
+Cflags: -I${includedir}/libsmartcols
+Libs: -L${libdir} -lsmartcols
